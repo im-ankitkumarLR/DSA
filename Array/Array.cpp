@@ -6,5 +6,15 @@ int main(){
 
 
     int k =5;
-    cout<<&k<<endl;
+    int *ptr =&k;
+
+    cout<< "Before "<<k<<endl;
+
+    (*ptr)++;
+
+cout<< "After "<<k<<endl;
+
+
+
+
 }
